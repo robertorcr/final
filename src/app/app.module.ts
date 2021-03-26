@@ -5,9 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { ReproductorComponent } from './reproductor/reproductor.component';
+
 @NgModule({
   declarations: [
     AppComponent,
+
+    ReproductorComponent
+
     FooterComponent
   ],
   imports: [
