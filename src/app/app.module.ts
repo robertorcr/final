@@ -3,12 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { FormasComponent } from './formas/formas.component';
+
+import { FooterComponent } from './footer/footer.component';
+
+import { ReproductorComponent } from './reproductor/reproductor.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+
     FormasComponent
+
+
+    ReproductorComponent
+
+    FooterComponent
+
   ],
   imports: [
     BrowserModule,
