@@ -4,9 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { ReproductorComponent } from './reproductor/reproductor.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    ReproductorComponent
   ],
   imports: [
     BrowserModule,
