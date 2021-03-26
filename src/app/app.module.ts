@@ -3,12 +3,36 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { HeaderComponent } from './header/header.component';
+
+import { CarruselComponent } from './carrusel/carrusel.component';
+
+import { FormasComponent } from './formas/formas.component';
+
+import { FooterComponent } from './footer/footer.component';
+
+import { ReproductorComponent } from './reproductor/reproductor.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+
     HeaderComponent
+
+
+    CarruselComponent
+
+
+    FormasComponent
+
+
+    ReproductorComponent
+
+    FooterComponent
+
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+.reproductor {
+
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    background-color: brown;
+    right: 20px;
+    top: 60px;
+
+    
+}
