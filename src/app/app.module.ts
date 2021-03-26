@@ -19,16 +19,16 @@ import { ReproductorComponent } from './reproductor/reproductor.component';
   declarations: [
     AppComponent,
 
-    HeaderComponent
+    HeaderComponent,
 
 
-    CarruselComponent
+    CarruselComponent,
 
 
-    FormasComponent
+    FormasComponent,
 
 
-    ReproductorComponent
+    ReproductorComponent,
 
     FooterComponent
 
