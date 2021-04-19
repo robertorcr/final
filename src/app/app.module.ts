@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RobertoPageComponent } from './roberto-page/roberto-page.component';
 import { DiegoComponent } from './diego/diego.component';
+import { GerardoComponent } from './gerardo/gerardo.component';
+import { ZaratebisComponent } from './zaratebis/zaratebis.component';
+import { DanielComponent } from './daniel/daniel.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { DiegoComponent } from './diego/diego.component';
     FooterComponent,
     HomeComponent,
     RobertoPageComponent,
-    DiegoComponent
+    DiegoComponent,
+    GerardoComponent,
+    ZaratebisComponent,
+    DanielComponent
   ],
   imports: [
     BrowserModule,
