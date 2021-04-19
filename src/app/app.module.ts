@@ -10,6 +10,7 @@ import { ReproductorComponent } from './home/reproductor/reproductor.component';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RobertoPageComponent } from './roberto-page/roberto-page.component';
+import { DanielComponent } from './daniel/daniel.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RobertoPageComponent } from './roberto-page/roberto-page.component';
     ReproductorComponent,
     FooterComponent,
     HomeComponent,
-    RobertoPageComponent
+    RobertoPageComponent,
+    DanielComponent
   ],
   imports: [
     BrowserModule,
