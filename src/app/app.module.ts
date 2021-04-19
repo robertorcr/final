@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RobertoPageComponent } from './roberto-page/roberto-page.component';
 import { ZaratebisComponent } from './zaratebis/zaratebis.component';
+import { DanielComponent } from './daniel/daniel.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ZaratebisComponent } from './zaratebis/zaratebis.component';
     FooterComponent,
     HomeComponent,
     RobertoPageComponent,
-    ZaratebisComponent
+    ZaratebisComponent,
+    DanielComponent
   ],
   imports: [
     BrowserModule,
