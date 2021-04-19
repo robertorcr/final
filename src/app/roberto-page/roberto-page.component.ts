@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import bicis from '../../assets/free-bike-status-1.json';
 
 @Component({
   selector: 'app-roberto-page',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./roberto-page.component.css']
 })
 export class RobertoPageComponent implements OnInit {
-
-  constructor() { }
+ mybicis:any;
+  constructor() {
+  }
 
   ngOnInit(): void {
+
   }
+
+  leejson(){
+    console.log(bicis);
+  }
+
 
 }
