@@ -1,0 +1,22 @@
+td{
+    height: auto;
+    width: 10%;
+    background-color: gray;
+    border-color: black;
+}
+
+th{
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.celdadiferente{
+    background-color: orange;
+}
+
+table, th,td{
+    border: 3px solid black;
+}
+
