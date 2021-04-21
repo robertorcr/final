@@ -1,18 +1,23 @@
-.navbar-brand{
-    background-color: aqua;
-}
-
-
-.navbar-header{
+.navbar{
     background-color: brown;
 }
 
-
-.container-fluid{
-    background-color: chartreuse;
+.navbar-brand{
+    background-color: rgb(17, 21, 13);
+    font-style: oblique;
 }
-
 
 .form-group{
     text-decoration: coral;
+}
+
+.navbar-header {
+  font-size: 24px;
+  position: relative;
+  left: 1px;
+}
+
+.nav-link{
+  font-size: 24px;
+  color: aliceblue;
 }

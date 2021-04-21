@@ -1,11 +1,8 @@
-footer
-{
-
+footer {
     position: fixed;
     bottom: 0;
     color: blue;
     outline: darkgreen;
     background-color:darkgray;
-    size: 100px;
-
+    width: 100%;
 }
