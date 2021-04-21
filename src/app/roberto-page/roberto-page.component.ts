@@ -7,17 +7,18 @@ import bicis from '../../assets/free-bike-status-1.json';
   styleUrls: ['./roberto-page.component.css']
 })
 export class RobertoPageComponent implements OnInit {
- mybicis:any;
-  constructor() {
-  }
+ mybicis: Array<any> = [];
+
+  constructor() {}
 
   ngOnInit(): void {
-
+    this.leejson();
   }
 
   leejson(){
+    this.mybicis = bicis.data.bikes;
+    console.log(this.mybicis);
     console.log(bicis);
   }
-
 
 }

@@ -1,1 +1,16 @@
-<button (click)="leejson()"> botón</button>
+<table class="tabla">
+  <tr>
+    <th class="celdadiferente">Id</th>
+    <th>nombre</th>
+    <th class="celdadiferente">Longitud</th>
+    <th>latitud</th>
+  </tr>
+  <tr *ngFor="let labici of mybicis" >
+    <td class="celdadiferente">{{labici.bike_id}}</td>
+    <td>{{labici.name}}</td>
+    <td>{{labici.lon}}</td>
+    <td>{{labici.lat}}</td>
+  </tr>
+</table>
+
+
