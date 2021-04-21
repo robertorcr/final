@@ -1,0 +1,23 @@
+td {
+    height: auto;
+    font-style: italic;
+    font-size: large;
+    background-color:chartreuse;
+    color: blue;
+    }
+
+th {
+    font-style: italic;
+    font-size: large;
+    background-color:darkcyan;
+    color:darkblue;
+}
+
+.celda diferente {
+    background-color: burlywood;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse
+}
