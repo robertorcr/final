@@ -15,6 +15,7 @@ import { DiegoComponent } from './diego/diego.component';
 import { GerardoComponent } from './gerardo/gerardo.component';
 import { ZaratebisComponent } from './zaratebis/zaratebis.component';
 import { DanielComponent } from './daniel/daniel.component';
+import { RenatoComponent } from './renato/renato.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DanielComponent } from './daniel/daniel.component';
     DiegoComponent,
     GerardoComponent,
     ZaratebisComponent,
-    DanielComponent
+    DanielComponent,
+    RenatoComponent
   ],
   imports: [
     BrowserModule,

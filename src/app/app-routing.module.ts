@@ -7,6 +7,7 @@ import { DanielComponent } from './daniel/daniel.component';
 import { HomeComponent } from './home/home.component';
 import { RobertoPageComponent } from './roberto-page/roberto-page.component';
 import { ZaratebisComponent } from './zaratebis/zaratebis.component';
+import { RenatoComponent } from './renato/renato.component';
 
 const routes: Routes = [
 
@@ -15,9 +16,11 @@ const routes: Routes = [
   { path: 'roberto', component: RobertoPageComponent },
   { path: 'ezequiel', component: EzequielComponent },
    { path: 'diego', component: DiegoComponent},
-    { path: 'Gerardo', component: GerardoComponent },
+   { path: 'diego', component: DiegoComponent},
+  { path: 'Gerardo', component: GerardoComponent },
   { path: 'daniel', component: DanielComponent },
   { path: 'zaratebis', component: ZaratebisComponent },
+  { path: 'renato', component: RenatoComponent },
 ];
 
 
