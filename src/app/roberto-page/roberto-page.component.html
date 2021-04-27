@@ -5,12 +5,15 @@
     <th class="celdadiferente">Longitud</th>
     <th>latitud</th>
   </tr>
-  <tr *ngFor="let labici of mybicis" >
-    <td class="celdadiferente">{{labici.bike_id}}</td>
+  <tr *ngFor="let labici of mybicis">
+    <td class="celdadiferente">{{labici.id}}</td>
     <td>{{labici.name}}</td>
     <td>{{labici.lon}}</td>
     <td>{{labici.lat}}</td>
   </tr>
 </table>
+
+<!--mat-table #table [dataSource]="mybicis" class="mat-elevation-z8"></mat-table-->
+
 
 
