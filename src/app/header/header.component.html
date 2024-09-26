@@ -1,0 +1,51 @@
+<!--nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Proyecto FINAL</a>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a href="/roberto">Roberto</a>
+    </div>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Buscar" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Enviar</button>
+    </form>
+  </div>
+</nav>
+<router-outlet></router-outlet-->
+++++++
+
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand">Proyecto FINAL</a>
+  <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button-->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/roberto">Roberto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/ezequiel">Ezequiel</a>
+        <a class="nav-link" routerLink="/diego">Diego</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/Gerardo">Gerardo</a>
+      </li>
+      <li>git
+        <a class="nav-link" routerLink="/zaratebis">zaratebis</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/daniel">daniel</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/renato">renato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

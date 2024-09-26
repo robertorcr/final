@@ -1,0 +1,16 @@
+<p>ezequiel works!</p>
+<button (click)="leejson()" > Boton</button>
+<table style="width:100%">
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Longitud</th>
+      <th>Latitud</th>
+    </tr>
+    <tr *ngFor="let labici of mybicis">
+      <td>{{labici.bike_id}}</td>
+      <td>{{labici.name}}</td>
+      <td>{{labici.lon}}</td>
+      <td>{{labici.lat}}</td>
+    </tr>
+</table>
